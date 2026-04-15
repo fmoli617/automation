@@ -1,0 +1,26 @@
+# Dependencias inferidas a partir do codigo e dos notebooks do projeto.
+# Instale com:
+# pip install -r requirements.txt
+
+# Ambiente de notebook no VS Code
+ipykernel>=7.1,<8
+
+# Integracoes SQL
+pandas>=3.0,<4
+pyodbc>=5.3,<6
+
+# Machine learning / similaridade textual
+numpy>=2.4,<3
+scikit-learn>=1.8,<2
+scipy>=1.17,<2
+
+# Automacao Windows / Office
+pywin32>=311
+
+# Qualidade de codigo
+ruff>=0.13,<1
+
+# Observacoes:
+# 1. Para os exemplos de SQL Server e MySQL, alem do pyodbc voce tambem precisa
+#    dos drivers ODBC instalados no Windows.
+# 2. Os notebooks basicos de fundamentos usam apenas a biblioteca padrao.
